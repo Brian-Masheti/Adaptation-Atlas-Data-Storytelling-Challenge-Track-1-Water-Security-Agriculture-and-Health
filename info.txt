@@ -1,0 +1,94 @@
+The Africa Agriculture Adaptation Atlas makes scientific knowledge practically accessible through interactive data explorations for policymakers, researchers, and investors to better understand climate risks, impacts, vulnerability, and adaptation strategies.
+
+In this challenge, we’re asking you to bring your data wrangling expertise, visualisation skills, and creative storytelling to craft interactive data visualisation notebooks that answer critical questions about climate risk and adaptation for partner decision-makers in Africa. You’ll use climate, socio-economic and agricultural data and all your creative ingenuity to answer key questions and craft data-driven stories that inform policy and investment decisions.
+
+We have 6 tracks within this challenge that address specific climate adaptation questions provided by real African institutions. Your notebooks should answer critical questions and communicate data insights through visualisations and compelling narratives. Winning notebooks will be incorporated into the Africa Agriculture Adaptation Atlas and assist decision-makers across Africa.
+
+Track 1: Climate Impacts on Water Security, Agriculture and Health (in partnership with ATI)
+
+This challenge, proposed by ATI, evaluates how climate change affects rainfall, evapotranspiration, soil moisture, and water availability across Africa. It supports decisions on irrigation, water conservation, and cross-sectoral allocation to reduce agricultural and household water stress under future scenarios.
+
+Key questions to answer in Track 1:
+
+    What regions experience the highest water stress?
+    How does climate change impact water availability and distribution?
+    What is the distribution of water use between agriculture, industry, and household consumption?
+    What innovative technologies can help improve water efficiency and conservation?
+
+See the Data tab for a more detailed description of the topic, the key questions, and suggested resources to answer each question.
+
+Learning resources
+
+To help you get started with data storytelling in climate and health, we have partnered with the Capacity Accelerator Network (CAN) powered by data.org to provide free online accreditation in two relevant courses. These courses are quick to complete and will provide you with the skills and inspiration you need to succeed in this challenge. They also come with accreditation on Zindi.
+
+Data Storytelling: Health focused climate communication
+
+Data Analytics for Climate and Health
+
+Evaluation
+
+This challenge will be evaluated in two phases - initial leaderboard position will be determined by preliminary rubric evaluation, and final winners will be decided based on expert panel evaluation of the top 10 Phase One scores in each track. Evaluation rubrics for Phase One and Phase Two are below.
+
+The top ten participants in each track of Phase One will be asked to submit the URL link of their full notebook and supporting documentation for evaluation in Phase Two.
+
+Phase one: Preliminary rubric evaluation
+
+Your initial leaderboard score will be awarded, according to the following rubric:
+
+    Format and layout (25%): Did you follow the given template?
+    Graphs and other visualisations (25%): Did you include complete, accurate, and visually pleasing visualisations?
+    Completeness (25%): Did you answer all of the critical questions for the topic?
+    Narrative arc (25%): Did you tell a story?
+
+Phase Two: Final rubric evaluation
+
+If you achieve a score in the top 10 for a specific topic in Phase One, your notebook submission will be reviewed in Phase Two by an expert panel, according to the following rubric:
+
+    Relevance (40%): How well were the questions addressed? Did the notebook achieve its goals overall?
+    Usability, efficiency, and documentation (20%): How easy is it for stakeholders to use the notebooks in future?
+    Creativity (20%): did you show creativity in your thought process and in how you told the story?
+    Aesthetics and narrative (20%): were the graphs and visualisations successful? Did you tell a coherent story with your notebook?
+
+Submission format
+
+To make a submission in this challenge, users are required to fork and work directly from the Observable notebook template provided. You will export your Observable notebook to HTML and submit the HTML file for scoring on Zindi.
+
+You will need to create a free Observable account to participate. Note that all Observable notebooks are either unlisted or public. We recommend that you keep your notebook unlisted for the duration of the challenge.
+
+Exporting your Observable notebook to HTML with Notebook Kit
+
+The Observable Notebook Kit module allows for an Observable notebook to be converted into a standalone HTML file for submission. To convert your Observable notebook into a static html, follow these steps:
+
+    Have Node, Deno, Bun or a similar JavaScript runtime installed on your local device. We have tested the conversion with Bun 1.2, Deno 2.2 and Node.js 24.
+    Install the Notebook Kit tool:
+
+    npm add @observablehq/notebook-kit Or
+    deno add npm:@observablehq/notebook-kit@latest Or
+    bun install @observablehq/notebook-kit@latest
+
+    Run the command line notebook-kit download command and write the output to a file.
+
+Here is an example which shows how to convert the Observable notebook at https://observablehq.com/d/8a953dc1cde63a86 to a static html file called notebook.html
+
+    notebook-kit download "https://observablehq.com/d/8a953dc1cde63a86" > notebook.html OR
+    deno run –allow-net npm:@observablehq/notebook-kit download "https://observablehq.com/d/8a953dc1cde63a86" > notebook.html OR
+    bunx notebooks download "https://observablehq.com/d/8a953dc1cde63a86" > notebook.html
+
+In this particular example the output name is notebook.html.
+
+We recommend the output name follows the convention <username>_<track_number>.html. For example, if my Zindi username is ‘User 15’ and I am currently working on the first track, I will create a file called User15_track_1.html.
+Prizes
+
+🥇 1st prize (per track) $1 000 USD
+
+🥈 2nd prize (per track) $500 USD
+
+⭐ Most innovative (across all tracks) $1 000 USD
+
+🙆‍♀️ Best female submission (across all tracks) $750 USD
+
+🌍 Best submission by an African citizen (across all tracks) $750 USD
+
+🚀 There are 2 000 Zindi points available per track. You can read more about Zindi points here.
+
+Winning notebooks will be incorporated into the Africa Agriculture Adaptation Atlas, potentially with modifications, and with acknowledgements of the original notebook author(s).
