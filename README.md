@@ -149,3 +149,6 @@ This analysis represents a comprehensive approach to African water security chal
 ---
 
 **Note**: This project focuses on water security, agriculture, and health impacts across Africa to support sustainable development and climate adaptation efforts.
+
+Author
+Brian Masheti
