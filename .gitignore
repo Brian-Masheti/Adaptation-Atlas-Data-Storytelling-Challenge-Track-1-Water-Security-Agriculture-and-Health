@@ -273,6 +273,14 @@ raw_data/
 processed_data/
 intermediate_results/
 
+# Local development files (keep offline)
+NEXT_SUBMISSION_STRATEGY.md
+info.txt
+data.txt
+local_notes/
+development_plans/
+strategy_documents/
+
 # Zindi specific (don't expose submission strategies)
 zindi_secrets/
 submission_keys/
