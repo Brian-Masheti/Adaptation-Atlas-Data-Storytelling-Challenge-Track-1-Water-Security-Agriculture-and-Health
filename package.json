@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@observablehq/notebook-kit": "^1.4.1"
+  }
+}
