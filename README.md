@@ -121,6 +121,12 @@ This comprehensive analysis addresses critical water security challenges across 
 ### 🚀 Getting Started
 
 #### Prerequisites
+Install required Python packages:
+```bash
+pip install -r requirements.txt
+```
+
+Alternatively, install core packages individually:
 ```bash
 pip install numpy pandas scikit-learn tensorflow matplotlib seaborn
 ```
